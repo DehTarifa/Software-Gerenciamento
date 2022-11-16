@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nome do software</title>
+
+    <!-- LINK CSS
+    ------------------------------------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/styles/login.css" />
+
+    <!-- FONTS .GOOGLE - font-family: 'Montserrat', sans-serif;
+    ------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- FORMULÁRIO
+    ------------------------------------------------------------------->
+      <section id="section-form-login">
+        <form id="form-login">
+          <div id="container-header-form">
+            <h1>Login</h1>
+          </div>
+
+          <!-- FORM INPUT LOGIN
+    ------------------------------------------------------------------->
+
+          <div>
+            <div class="container-input-login">
+              <label for="email">
+                E-Mail:
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Insira seu e-mail aqui:"
+                />
+              </label>
+
+              <label for="password">
+                Senha:
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Insira sua senha aqui:"
+                />
+              </label>
+            </div>
+          </div>
+
+          <!-- INPUT BUTTON
+    ------------------------------------------------------------------->
+          <input type="button" value="Entrar" class="style-btn" id="" />
+
+          <div id="container-header-info">
+            <div class="container-info">
+              <img
+                src="assets/img/icon/icon-info.svg"
+                alt="circulo com a letra i ao centro"
+              />
+              <p>
+                Para acessar utilize - login: adimin@.com <br />
+                senha: @tester98
+              </p>
+            </div>
+
+            <div class="container-info">
+              <img
+                src="assets/img/icon/icon-logo.svg"
+                alt="logo Denner Ribeiro"
+              />
+              <p>
+                Criado por Denner Tarifa Ribeiro
+                <a href="https://github.com/DehTarifa">GitHub</a>
+              </p>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
