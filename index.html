@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nome do software</title>
+    <title>Software</title>
 
-    <!-- LINK CSS
+    <!-- CDN - ICON
     ------------------------------------------------------------------->
     <link
       rel="stylesheet"
@@ -15,6 +15,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- LINK CSS
+    ------------------------------------------------------------------->
 
     <link rel="stylesheet" href="assets/styles/login.css" />
 
@@ -43,22 +46,22 @@
 
           <div>
             <div class="container-input-login">
-              <label for="email">
+              <label for="input-login-email">
                 E-Mail:
                 <input
                   type="text"
-                  id="email"
-                  name="email"
+                  id="input-login-email"
+                  name="input-login-email"
                   placeholder="Insira seu e-mail aqui:"
                 />
               </label>
 
-              <label for="password">
+              <label for="input-login-password">
                 Senha:
                 <input
                   type="password"
-                  id="password"
-                  name="password"
+                  id="input-login-password"
+                  name="input-login-password"
                   placeholder="Insira sua senha aqui:"
                 />
               </label>
@@ -67,7 +70,13 @@
 
           <!-- INPUT BUTTON
     ------------------------------------------------------------------->
-          <input type="button" value="Entrar" class="style-btn" id="" />
+          <input
+            type="button"
+            value="Entrar"
+            class="style-btn"
+            id="btn-entrar-login"
+            onclick="ValidarBtnlogin()"
+          />
 
           <div id="container-header-info">
             <div class="container-info">
@@ -96,4 +105,6 @@
       </section>
     </main>
   </body>
+
+  <script src="assets/script/script.js"></script>
 </html>
