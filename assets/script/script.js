@@ -4,10 +4,10 @@ const InputEmailLogin = document.getElementById('input-login-email')
 const InputPasswordLogin = document.getElementById('input-login-password')
 
 function ValidarBtnlogin() {
-  if (InputEmailLogin.value == 'admin' && InputPasswordLogin.value == '123') {
+  if (InputEmailLogin.value == 'adimin' && InputPasswordLogin.value == '123') {
     window.location = 'option.html'
   } else {
-    alert(' eu amo minha namorada')
+    alert(' senha incorreta ')
   }
 }
 
