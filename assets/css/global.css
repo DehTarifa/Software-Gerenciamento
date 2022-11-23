@@ -1,0 +1,30 @@
+/*  IMPORT FONT GOGLE 
+----------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*  STYLE GLOBAL
+----------------------------------------------------*/
+
+* {
+
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--color-quarta);
+  
+}
+
+/*  GLOBAL VARIABLES 
+----------------------------------------------------*/
+
+:root {
+  --color-primaria: #01c38d;
+  --color-secundaria: #191e29;
+  --color-terceira: #202736;
+  --color-quarta: #f6f6f6;
+  --color-quito: #cf0015;
+  --color-gradiend: linear-gradient(90deg, rgba(1, 195, 141, 1) 0%, rgb(1, 131, 94) 100%
+  );
+}

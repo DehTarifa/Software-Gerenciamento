@@ -14,11 +14,52 @@
   --color-secundaria: #191e29;
   --color-terceira: #202736;
   --color-quarta: #f6f6f6;
+  --color-quito: #cf0015;
   --color-gradiend: linear-gradient(
     90deg,
     rgba(1, 195, 141, 1) 0%,
     rgb(1, 131, 94) 100%
   );
+}
+
+/* CLASSES GLOBAIS  --------------------------------*/
+
+.container-input-login {
+  margin-bottom: 30px;
+}
+
+.container-input-login span {
+  padding: 10px;
+  font-size: 10pt;
+}
+
+.container-input-login input {
+  padding: 15px 20px;
+  width: 100%;
+  outline: none;
+  font-size: 11pt;
+  margin-top: 5px;
+  background: var(--color-secundaria);
+  border: none;
+  border: 1px solid var(--color-secundaria);
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* VALIDATION INPUT  --------------------------------*/
+
+.container-input-login.validated input {
+  border: 1px solid var(--color-primaria);
+}
+
+.container-input-login.incorrect input {
+  border: 1px solid var(--color-quito);
+}
+
+.span-login-password, .span-login-email {
+  color: var(--color-quito);
+
 }
 
 /* SECTION LOGIN FORM --------------------------------*/
@@ -47,22 +88,6 @@
   padding: 0px 10px;
   font-size: 28pt;
   font-weight: 300;
-}
-
-.container-input-login input {
-  padding: 15px 20px;
-  width: 100%;
-  outline: none;
-  font-size: 11pt;
-  margin-bottom: 30px;
-  margin-top: 5px;
-  background: var(--color-secundaria);
-  border: none;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
 }
 
 /* STYLE BUTTON --------------------------------*/

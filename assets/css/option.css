@@ -22,12 +22,17 @@
 }
 
 /* SECTION OPTION  --------------------------------*/
+main {
+  background-color: var(--color-secundaria);
+}
+
 #section-option {
   height: 100vh;
   width: 100%;
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
-  background-color: var(--color-secundaria);
   align-items: center;
 }
 
