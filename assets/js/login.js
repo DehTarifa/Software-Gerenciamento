@@ -37,12 +37,11 @@ function ValidarBtnlogin() {
     spanLoginEmail.innerHTML = 'preencha os campos vazios'
     spanLoginPassword.innerHTML = 'preencha os campos vazios'
 
-    return
-  } else if (loginEmailValue === 'adimim' && loginPasswordValue === '123') {
 
-    window.location = 'assets/html/option.html'
+  } else if (loginEmailValue === 'admim' && loginPasswordValue === '123') {
 
-    return
+    window.location = '/pages/option.html'
+
   } else {
 
     containerEmail.classList.add('incorrect')

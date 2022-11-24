@@ -1,11 +1,10 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+#section-prohibited {
+  background: var(--color-terceira);
+  width: 100vw;
+  height: 100vh;
 }
 
+/* 
 body {
   width: 100vw;
   height: 100vh;
@@ -224,3 +223,5 @@ td button i {
 td button i:first-child {
   margin-right: 10px;
 }
+
+*/

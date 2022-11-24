@@ -1,3 +1,12 @@
+// button para acessar a página
+
+function enterEntries() {
+
+  window.location = '/pages/controlProhibited.html'
+
+}
+//local storage
+
 const modal = document.querySelector('.modal-container')
 const tbody = document.querySelector('tbody')
 const sNome = document.querySelector('#m-nome')

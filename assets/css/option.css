@@ -1,27 +1,3 @@
-/* VARIAVEIS GLOBAIS --------------------------------*/
-
-* {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: var(--color-quarta);
-}
-
-:root {
-  --color-primaria: #01c38d;
-  --color-secundaria: #191e29;
-  --color-terceira: #202736;
-  --color-quarta: #f6f6f6;
-  --color-gradiend: linear-gradient(
-    90deg,
-    rgba(1, 195, 141, 1) 0%,
-    rgb(1, 131, 94) 100%
-  );
-}
-
-/* SECTION OPTION  --------------------------------*/
 main {
   background-color: var(--color-secundaria);
 }
