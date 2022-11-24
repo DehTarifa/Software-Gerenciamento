@@ -1,5 +1,6 @@
 /*  IMPORT FONT GOGLE 
 ----------------------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*  STYLE GLOBAL
@@ -27,4 +28,58 @@
   --color-quito: #cf0015;
   --color-gradiend: linear-gradient(90deg, rgba(1, 195, 141, 1) 0%, rgb(1, 131, 94) 100%
   );
+}
+
+/*  STYLES ALL INPUT
+----------------------------------------------------*/
+.container-style-input {
+  height: 120px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-style-input span {
+  font-size: 10pt;
+}
+
+.container-style-input.incorrect span {
+  color: var(--color-quito);
+}
+
+.container-style-input input {
+  padding: 15px 20px;
+  margin-top: 8px;
+  width: 100%;
+  outline: none;
+  font-size: 10pt;
+  background: var(--color-secundaria);
+  border: none;
+  border: 1px solid var(--color-secundaria);
+}
+
+.container-style-input.incorrect input {
+  border: 1px solid var(--color-quito);
+}
+
+/* STYLE BUTTON --------------------------------*/
+
+.style-btn {
+  width: 260px;
+  padding: 15px 0px;
+  align-self: center;
+  color: var(--color-quarta);
+  background: var(--color-secundaria);
+  border: 1px solid var(--color-primaria);
+  font-size: 13pt;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 1.3s;
+}
+
+.style-btn:hover {
+  opacity: 1;
+  background: var(--color-primaria);
+  opacity: 1;
 }
