@@ -1,22 +1,54 @@
-#section-prohibited {
-  background: var(--color-terceira);
-  width: 100vw;
-  height: 100vh;
+* {
+  color: black;
 }
 
-/* 
-body {
+#section-prohibited {
+  background: var(--color-terceira);
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0,0,0,0.1);
 }
 
-button {
-  cursor: pointer;
+.container-cadastro {
+  background-color: aliceblue;
+  width: 95%;
+  height: 95%;
 }
+
+.header-cadastro {
+  background-color: var(--color-secundaria);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.header-cadastro h1 {
+  font-weight: 400;
+  border-left: 1px solid var(--color-primaria);
+  padding: 0 1rem;
+}
+
+.header-cadastro button {
+  background-color: transparent;
+  padding: .8rem 4rem;
+  border: 1px solid var(--color-primaria);
+}
+
+.talbe-tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.talbe-tr th {
+  color: black;
+  background-color: aquamarine;
+}
+/* 
 
 .container {
   width: 90%;
